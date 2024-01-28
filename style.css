@@ -1,0 +1,63 @@
+.bold{
+    font-weight: bold;
+}
+header{
+  text-align: center;
+}
+label{
+    font-weight: bold;
+}
+.to{
+    border:2px solid;
+    margin-left:20px;
+    padding:6px;
+    width:300px;
+}
+.select{
+    margin-left:20px;
+    padding:6px;
+    width:214px;
+    margin-top: 10px;
+}
+#monthLevel{
+    margin-left:100px;
+}
+.selectmonth{
+    margin-left:20px;
+    padding:6px;
+    width:100px;
+    margin-top: 10px;
+}
+table{
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table,th,td{
+    border:1px solid black;
+}
+td,th{
+    text-align: center;
+    padding: 10px;
+}
+.num{
+    width:5%;
+}
+.col2{
+    width:15%;
+}
+.colwd{
+    width:25%;
+}
+.textleft{
+ text-align: left;
+}
+.textright{
+    text-align: right;
+   }
+.footer{
+    margin-left: 5%;
+}
+.point2{
+    margin-left:6%;
+}
