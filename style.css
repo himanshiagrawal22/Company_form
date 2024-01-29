@@ -1,63 +1,89 @@
-.bold{
+.bold {
     font-weight: bold;
 }
-header{
-  text-align: center;
+
+header {
+    text-align: center;
 }
-label{
+
+label {
     font-weight: bold;
 }
-.to{
-    border:2px solid;
-    margin-left:20px;
-    padding:6px;
-    width:300px;
+
+.to {
+    border: 2px solid;
+    margin-left: 20px;
+    padding: 6px;
+    width: 300px;
 }
-.select{
-    margin-left:20px;
-    padding:6px;
-    width:214px;
+
+.select {
+    margin-left: 20px;
+    padding: 6px;
+    width: 214px;
     margin-top: 10px;
 }
-#monthLevel{
-    margin-left:100px;
+
+#monthLevel {
+    margin-left: 100px;
 }
-.selectmonth{
-    margin-left:20px;
-    padding:6px;
-    width:100px;
+
+.selectmonth {
+    margin-left: 20px;
+    padding: 6px;
+    width: 100px;
     margin-top: 10px;
 }
-table{
+
+table {
     margin-top: 25px;
     border-collapse: collapse;
     width: 100%;
 }
-table,th,td{
-    border:1px solid black;
+
+table,
+th,
+td {
+    border: 1px solid black;
 }
-td,th{
+
+td,
+th {
     text-align: center;
     padding: 10px;
 }
-.num{
-    width:5%;
+
+.num {
+    width: 5%;
 }
-.col2{
-    width:15%;
+
+.col2 {
+    width: 15%;
 }
-.colwd{
-    width:25%;
+
+.colwd {
+    width: 25%;
 }
-.textleft{
- text-align: left;
+
+.textleft {
+    text-align: left;
 }
-.textright{
+
+.textright {
     text-align: right;
-   }
-.footer{
+}
+
+.footer {
     margin-left: 5%;
 }
-.point2{
-    margin-left:6%;
+
+.point2 {
+    margin-left: 6%;
+}
+.div1{
+  text-align: left;
+}
+.div2{
+    text-align: right;
+    margin-right: 7%;
 }

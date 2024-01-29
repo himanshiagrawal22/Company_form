@@ -24,18 +24,18 @@
     </select>
     <label id="monthLevel" for="">For Month:</label>
     <select class="selectmonth" name="" id="">
-      <option value="">January</option>
-      <option value="">February</option>
-      <option value="">March</option>
-      <option value="">April</option>
-      <option value="">May</option>
-      <option value="">June</option>
-      <option value="">July</option>
-      <option value="">August</option>
-      <option value="">September</option>
-      <option value="">October</option>
-      <option value="">November</option>
-      <option value="">Decenber</option>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">Decenber</option>
     </select>
     <table>
       <tr>
@@ -100,22 +100,22 @@
         <th colspan="2">Drawee Entity</th>
       </tr>
       <tr>
-        <td colspan="2" class="bold">Name of Entity</td>
+        <td colspan="2" class="bold textleft">Name of Entity</td>
         <td colspan="2"></td>
         <td colspan="2"></td>
       </tr>
       <tr>
-        <td colspan="2" class="bold">Entity in which it is embedded</td>
+        <td colspan="2" class="bold textleft">Entity in which it is embedded</td>
         <td colspan="2"></td>
         <td colspan="2"></td>
       </tr>
       <tr>
-        <td colspan="2" class="bold">Concerned SLDC/Region</td>
+        <td colspan="2" class="bold textleft">Concerned SLDC/Region</td>
         <td colspan="2"></td>
         <td colspan="2"></td>
       </tr>
       <tr>
-        <td colspan="2" class="bold">Whether Internalized(Yes/No)</td>
+        <td colspan="2" class="bold textleft">Whether Internalized(Yes/No)</td>
         <td colspan="2"></td>
         <td colspan="2"></td>
       </tr>
@@ -123,7 +123,7 @@
       </tr>
       <tr>
         <td class="bold num">5</th>
-        <td class="bold textleft" colspan="4">Applied route (From Injection points to drawal point)</td>
+        <td class="bold textleft" colspan="4 textleft">Applied route (From Injection points to drawal point)</td>
         <td colspan="4">
           <select name="" id="">
             <option value="">List of all routes from seller to buyer</option>
@@ -133,7 +133,8 @@
       </tr>
       <tr>
         <td class="bold num">6</th>
-        <td class="bold textleft" colspan="4">If re-routing to be considerd ,please specify the alternative route(s)
+        <td class="bold textleft" colspan="4  textleft">If re-routing to be considerd ,please specify the alternative
+          route(s)
         </td>
         <td colspan="4">
           <select name="" id="">
@@ -144,7 +145,8 @@
       </tr>
       <tr>
         <td class="bold num">7</td>
-        <td class="bold textleft" colspan="4">Payement details of Non-refundable Application Fee(Rs. 5000/-)</td>
+        <td class="bold textleft" colspan="4  textleft">Payement details of Non-refundable Application Fee(Rs. 5000/-)
+        </td>
         <td colspan="4"></td>
       </tr>
       <tr>
@@ -156,13 +158,20 @@
               respect to bilateral transactions in thter state trasmissions as amended from tie to time are hereby
               understood and would be binding.</p>
             <p class="textright">Signature(With Stamp)</p>
-            <label for="">Date:</label>
-            <input type="date" placeholder="Current Date">
-            <label for="">Name:</label>
-            <br>
-            <label for=""></label>Place:</label>
-            <input type="text" placeholder="Location of Applicant">
-            <label for="">Designation:</label>
+            <div>
+              <div class="div1">
+                <label for="">Date:</label>
+                <input type="date" placeholder="Current Date">
+                <br><br>
+                <label for=""></label>Place:</label>
+                <input type="text" placeholder="Location of Applicant">
+              </div>
+              <div class="div2">
+                <label for="">Name:</label>
+                <br><br>
+                <label for="">Designation:</label>
+              </div>
+            </div>
           </div>
         </td>
       </tr>
